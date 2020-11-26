@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "vercel-serverless-flask-api",
+    "builds": [
+        { "src": "*.py", "use": "@vercel/vercel-flask" , "config": { "maxLambdaSize": "30mb" } }
+    ],
+    "routes": [
+        {
+            "src": "/index", "dest": "/index.py"
+        },
+        {
+            "src": "/bread", "dest": "/index.py"
+        }
+    ]
+}
