@@ -1,5 +1,3 @@
-numpy
-pandas
 flask
 waitress
-seaborn
+seabor
