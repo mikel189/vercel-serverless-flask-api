@@ -1,2 +1,3 @@
 .vercel
 requirements.txt
+.env
